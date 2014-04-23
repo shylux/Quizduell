@@ -27,9 +27,9 @@ public class Question {
 	}
 
 	static {
-		QUESTION_POOL.add(new Question("Was ist eine Stadt der Schweiz?", new String[] {"Biel", "Berlin", "Bamberg", "Bremen"}, "Biel"));
-		QUESTION_POOL.add(new Question("Was ist ein Teil einer Digitalkamera?", new String[] {"Sieb", "Maus", "Chip", "Eimer"}, "Chip"));
-		QUESTION_POOL.add(new Question("Was ist KEINE Stadt der Schweiz?", new String[] {"Berlin", "Bern", "Zürich", "Basel"}, "Berlin"));
+		QUESTION_POOL.add(new Question("Was?ist?eine?Stadt?der?Schweiz?", new String[] {"Biel", "Berlin", "Bamberg", "Bremen"}, "Biel"));
+		QUESTION_POOL.add(new Question("Was?ist?ein?Teil?einer?Digitalkamera?", new String[] {"Sieb", "Maus", "Chip", "Eimer"}, "Chip"));
+		QUESTION_POOL.add(new Question("Was?ist?KEINE?Stadt?der?Schweiz?", new String[] {"Berlin", "Bern", "Z?rich", "Basel"}, "Berlin"));
 	}
 	
 	public Question(String quest, String[] ans, String correctAns) {
